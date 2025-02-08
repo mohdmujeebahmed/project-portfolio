@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mujeeb Ahmed - Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to bottom right, #f0f4f8, #e0f7fa);
+    }
+    .container {
+      padding: 40px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .header h1 {
+      font-size: 3rem;
+      color: #2C5282;
+    }
+    .header p {
+      font-size: 1.125rem;
+      color: #4A5568;
+      margin-top: 10px;
+    }
+    .header img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      margin-top: 20px;
+      border: 3px solid #2C5282;
+    }
+    .section {
+      margin-bottom: 50px;
+    }
+    .section h2 {
+      font-size: 2rem;
+      color: #2C5282;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .projects-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+    }
+    .project-card {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+    .project-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+    .project-card:hover {
+      transform: translateY(-5px);
+    }
+    .project-card h3 {
+      font-size: 1.5rem;
+      color: #2D3748;
+      margin-top: 15px;
+    }
+    .project-card p {
+      color: #718096;
+    }
+    .skills-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      justify-content: center;
+      list-style: none;
+      padding: 0;
+    }
+    .skills-list li {
+      display: flex;
+      align-items: center;
+      background: #3182ce;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 20px;
+      font-size: 1rem;
+      gap: 10px;
+    }
+    .skills-list i {
+      font-size: 1.25rem;
+    }
+    footer {
+      text-align: center;
+      color: #718096;
+      margin-top: 40px;
+    }
+    footer p a {
+      text-decoration: none;
+      color: #3182ce;
+    }
+    .button {
+      display: inline-block;
+      background-color: #3182ce;
+      color: white;
+      padding: 12px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+      margin-top: 20px;
+      transition: background-color 0.3s ease;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .button i {
+      font-size: 1.25rem;
+      margin-right: 8px;
+    }
+    .button:hover {
+      background-color: #2C5282;
+    }
+    #contact a {
+      text-decoration: none;
+    }
+    @media (max-width: 768px) {
+      .header h1 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <!-- Header Section -->
+    <header class="header">
+      <img src="C:\Users\nashu\OneDrive\Desktop\delo.jpg" alt="Profile Picture">
+      <h1>Mohammed Mujeeb Ahmed</h1>
+      <p>mujeebmohammed005@gmail.com | +91 9381282521 | Warangal, India</p>
+    </header>
+
+    <!-- Education Section -->
+  
+    <!-- Experience Section -->
+    <section id="experience" class="section">
+      <h2>Experience</h2>
+      <div class="card">
+        <h3>AIML Intern at NIT Warangal</h3>
+        <p>March 27 - April 7</p>
+        <ul>
+          <li>Worked on an AI project (Game Prediction) with a cohort of 5 peers, applying machine learning techniques to data.</li>
+          <li>Improved predictive accuracy by collecting comprehensive datasets, including game metrics and historical data.</li>
+          <li>Developed a predictive model using regression analysis and classification techniques.</li>
+        </ul>
+        <h3>Intern at ISRO VALF (Vehicle Assembly & Launch Facility)</h3>
+        <p>Aug 7 - Sep 17</p>
+        <ul>
+          <li>Collaborated with engineers to automate the bogie system (rocket-pulling machine) under the supervision of a scientist.</li>
+          <li>Gained hands-on exposure to advanced automation techniques in the aerospace industry.</li>
+          <li>Reinforced understanding of control systems in space exploration applications.</li>
+        </ul>
+      </div>
+    </section>
+        <h3>Intern at Teachnook (Cyber-Security)</h3>
+        <p>Feb7 - April 17</p>
+    <ul>
+
+      <li>Gained hands-on exposure to advanced Cyber-Security tools and Practical Experience.</li>
+      <li>Reinforced understanding of Tools and Attacks(My Fav Attack BRUPSUIT Attack).</li>
+      <li>Improved my Skills to protect my data and how to hack the data :)</li>
+    </ul>
+  </div>
+</section>
+
+    <!-- Technical Skills Section -->
+    <section id="skills" class="section">
+      <h2>Technical Skills</h2>
+      <ul class="skills-list">
+        <li><i class="fas fa-code"></i> Verilog</li>
+        <li><i class="fas fa-microchip"></i> VHDL</li>
+        <li><i class="fas fa-chart-line"></i> MATLAB</li>
+        <li><i class="fas fa-terminal"></i> C Programming</li>
+        <li><i class="fab fa-python"></i> Python</li>
+        <li><i class="fab fa-java"></i> Java</li>
+        <li><i class="fas fa-cogs"></i> Digital Logic Design</li>
+        <li><i class="fas fa-memory"></i> CMOS Basics</li>
+        <li><i class="fas fa-lightbulb"></i> Fuzzy Logic</li>
+        <li><i class="fas fa-database"></i> DSA</li>
+      </ul>
+    </section>
+
+    <!-- Projects Section -->
+   <!-- Projects Section -->
+<section id="projects" class="section">
+    <h2>Projects</h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <i class="fas fa-calculator" style="font-size: 3rem; color: #2C5282;"></i>
+       
+        <h3>4-Bit Arithmetic Logic Unit (ALU)</h3>
+        <p>Designed a 4-bit ALU in Verilog, implementing operations like addition, subtraction, and logical shifts.</p>
+      </div>
+      <div class="project-card">
+        <i class="fas fa-cogs" style="font-size: 3rem; color: #2C5282;"></i>
+       
+        <h3>D Flip-Flop Design</h3>
+        <p>Designed and simulated a D Flip-Flop in Verilog and published a research paper on its optimization.</p>
+      </div>
+      <div class="project-card">
+        <i class="fas fa-parking" style="font-size: 3rem; color: #2C5282;"></i>
+      
+        <h3>Smart Parking System</h3>
+        <p>Developed an automated parking system using sensors and microcontrollers for real-world use.</p>
+      </div>
+      <div class="project-card">
+        <i class="fas fa-home" style="font-size: 3rem; color: #2C5282;"></i>
+       
+        <h3>Smart Home System</h3>
+        <p>Created an IoT-based smart home system for remote control of devices via mobile applications.</p>
+      </div>
+      <div class="project-card">
+        <i class="fas fa-microphone" style="font-size: 3rem; color: #2C5282;"></i>
+        
+        <h3>Voice Automated Project</h3>
+        <p>Implemented voice commands to control home appliances, enhancing automation capabilities.</p>
+      </div>
+      <div class="project-card">
+        <i class="fas fa-headset" style="font-size: 3rem; color: #2C5282;"></i>
+        
+        <h3>Java Therapist</h3>
+        <p>Developed a Java-based application that provides basic mental health support and conversation simulations.</p>
+      </div>
+      <div class="project-card">
+        <i class="fas fa-robot" style="font-size: 3rem; color: #2C5282;"></i>
+       
+        <h3>AI-Powered Chatbot</h3>
+        <p>Developed an AI chatbot in Google Colab using Python to assist users with queries about SR University.</p>
+      </div>
+      <div class="project-card">
+        <i class="fas fa-apple-alt" style="font-size: 3rem; color: #2C5282;"></i>
+        
+        <h3>Fruit Image Classifier</h3>
+        <p>Built a CNN model in Python using TensorFlow/Keras to classify fruit images with over 90% accuracy.</p>
+      </div>
+      <div class="project-card">
+        <i class="fas fa-cookie" style="font-size: 3rem; color: #2C5282;"></i>
+       
+        <h3>Chocolate Name Prediction Using Fuzzy Logic</h3>
+        <p>Collaborated with a team to develop a fuzzy logic system to predict chocolate names with 75% accuracy.</p>
+      </div>
+      <div class="project-card">
+        <i class="fas fa-gamepad" style="font-size: 3rem; color: #2C5282;"></i>
+        
+        <h3>Game Prediction Model</h3>
+        <p>Built a machine learning model to predict game hype based on player statistics and market trends.</p>
+      </div>
+    </div>
+  </section>
+  
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+      <h2>Contact Me</h2>
+      <p>Feel free to reach out for collaboration or just a friendly chat!</p>
+      
+      <!-- Centered button container -->
+      <div style="display: flex; justify-content: center; gap: 20px;">
+        <a href="mailto:mujeebmohammed005@gmail.com" class="button">Get In Touch</a>
+        
+        <!-- LinkedIn Button -->
+        <a href="https://linkedin.com/in/mohammedmujeebahmed" target="_blank" class="button" style="display: flex; align-items: center; justify-content: center;">
+          <i class="fab fa-linkedin" style="margin-right: 8px;"></i> LinkedIn
+        </a>
+        
+        <!-- WhatsApp Button -->
+        <a href="https://wa.me/919381282521" target="_blank" class="button" style="display: flex; align-items: center; justify-content: center;">
+          <i class="fab fa-whatsapp" style="margin-right: 8px;"></i> WhatsApp
+        </a>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+      <p>&copy; 2025 Mujeeb Ahmed. All rights reserved.</p>
+      <p>
+        <a href="https://linkedin.com/in/mohammedmujeebahmed" target="_blank">LinkedIn</a> | 
+        <a href="https://wa.me/919381282521" target="_blank">WhatsApp</a>
+      </p>
+    </footer>
+  </div>
+
+</body>
+</html>
